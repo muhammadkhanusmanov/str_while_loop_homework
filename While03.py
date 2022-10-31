@@ -14,6 +14,7 @@ def main(s):
         while j<len(a):
             if s[n]==a[j]:
                 i+=1
+            j+=1
         n+=1
 
     return i
