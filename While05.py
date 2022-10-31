@@ -6,8 +6,8 @@ def main(s):
     Returns:
         int: return answer
     """
-    i=0
-    n=0
+    i = 0
+    n = 0
     while n<len(s):
         if s[n].lower()==s[n]:
             i+=1
