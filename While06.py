@@ -1,5 +1,5 @@
 def main1(a,n):
-    if a[n].lower()=='a' or a[n].lower()=='a' or a[n].lower()=='a' or a[n].lower()=='a' or a[n].lower()=='a':
+    if a[n].lower()=='a' or a[n].lower()=='i' or a[n].lower()=='e' or a[n].lower()=='o' or a[n].lower()=='u':
         i = 0
     else:
         i = 1
