@@ -6,7 +6,7 @@ def main(s):
     Returns:
         int: return answer
     """
-     n = 0
+    n = 0
     i = 0
     while n<len(s):
         if s[n].lower()!=s[n].upper():
