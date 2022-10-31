@@ -1,8 +1,8 @@
 def main1(a,n):
     if a[n].lower()=='a' or a[n].lower()=='a' or a[n].lower()=='a' or a[n].lower()=='a' or a[n].lower()=='a':
-        i = 1
-    else:
         i = 0
+    else:
+        i = 1
     return i
 def main(s):
     t = 0
