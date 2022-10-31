@@ -6,4 +6,10 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    n=0
+    while n<len(s):
+        if s[n].lower()==s[n]:
+            i+=1
+        n+=1
+    return i
