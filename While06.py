@@ -1,9 +1,14 @@
+def main1(a,n):
+    if a[n].lower()=='a' or a[n].lower()=='a' or a[n].lower()=='a' or a[n].lower()=='a' or a[n].lower()=='a':
+        i = 1
+    else:
+        i = 0
+    return i
 def main(s):
-    """
-    A variable of type str is given. Find and return how many consonant letters there are.
-    Args:
-        s: str
-        consonant: other than vowels(a, e, i, o, u)
-    Returns:
-        int: return answer
-    """
+    t = 0
+    a = 0
+    while t<len(s):
+        a+=main1(s,t) 
+    return a
+
+
