@@ -9,6 +9,7 @@ def main(s):
     a = 0
     while t<len(s):
         a+=main1(s,t) 
+        t+=1
     return a
 
 
