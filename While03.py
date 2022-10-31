@@ -6,4 +6,14 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    a = """!()-[]{;:'"\,<>.}/?@#$%^&*_~"""
+    n = 0
+    i = 0
+    j = 0
+    while n<len(s):
+        while j<len(a):
+            if s[n]==a[j]:
+                i+=1
+        n+=1
+
+    return i
