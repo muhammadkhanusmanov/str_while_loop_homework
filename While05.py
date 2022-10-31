@@ -9,7 +9,7 @@ def main(s):
     i = 0
     n = 0
     while n<len(s):
-        if s[n].lower()==s[n]:
+        if s[n].islower():
             i+=1
         n+=1
     return i
